@@ -1,1 +1,1 @@
-ps aux | grep "iquidus/explorer/bin/cluster" | grep -v "grep" | awk '{system ("kill " $2);}'
+ps aux | grep "projects/explorer/bin/cluster" | grep -v "grep" | awk '{system ("kill " $2);}'

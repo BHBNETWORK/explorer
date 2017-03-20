@@ -1,1 +1,1 @@
-ps aux | grep "iquidus/explorer/bin/cluster" | grep -v "grep" | awk '{system ("echo " $0);}'
+ps aux | grep "projects/explorer/bin/cluster" | grep -v "grep" | awk '{system ("echo " $0);}'
